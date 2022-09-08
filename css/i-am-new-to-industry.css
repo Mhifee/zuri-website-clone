@@ -1,0 +1,1719 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Graphik";
+}
+img{
+    width: 100%;
+}
+body{
+    background-color: rgb(255,253,245);
+}
+header{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 15px 10px;
+    background-color: rgb(255,253,245);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.zuri-training-logo{
+    width: 45%;
+    display: flex;
+    /* flex: 45%; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 0 24px 0 0;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.header-links{
+    display: none;
+}
+.enroll-now{
+    display: flex;
+    /* flex: 55%; */
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    /* border: 1px solid blue; */
+}
+.thumb{
+    z-index: 1;
+    width: 55px;
+    margin: 0 -17px 0 0;
+    padding: 10px 9px 6px 10px;
+    border: 1px;
+    border-radius: 50%;
+    background-color: #E7332B;
+}
+.enroll-1{
+    /* margin: 5px 0; */
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 71px;
+    padding: 11px 20px;
+    outline: none;
+    background-color: #E7332B;
+}
+.lady{
+    margin-top: 79px;
+    padding: 16px;
+    width: 100%;
+    /* border: 1px solid red; */
+    mix-blend-mode: darken;
+}
+.male-1{
+    display: none;
+}
+.gain-knowledge{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #1B1A20;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-top: -40px;
+    padding: 0 20px 40px 20px;
+}
+.gain-knowledge span{
+    color: #E7332B;
+    font-size: 18px;
+}
+.gain-knowledge h3{
+    font-size: 28px;
+    position: relative;
+    padding: 12px 0;
+    line-height: 30px;
+}
+.wire{
+    width: 32%;
+    top: 92%;
+    right: 9.5%;
+    position: absolute;
+}
+.gain-knowledge-text{
+    padding: 30px 0 40px 0;
+    font-size: 16px;
+    line-height: 21px;
+}
+.enroll-2{
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 71px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: #E7332B;
+    cursor: pointer;
+}
+.male-face{
+    display: none;
+}
+.wire-1{
+    width: 15%;
+    margin-left: 50%;
+}
+.about{
+    color: #1B1A20;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    padding: 30px 0;
+    border-top: 1px solid hsl(250, 10%, 11%, 0.2);
+    border-bottom: 1px solid hsl(250, 10%, 11%, 0.2);
+}
+.launch{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 27px;
+}
+.about img{
+    width: 60%;
+    padding: 20px;
+    mix-blend-mode: darken;
+}
+.aim{
+    font-size: 18px;
+    line-height: 25px;
+    padding: 30px 0 20px 0;
+}
+.aim a{
+    color: #43B97F;
+    text-decoration: underline;
+}
+.why-zuri{
+    margin-bottom: 70px;
+    padding: 30px 0;
+}
+.why-zuri-training{
+    padding: 0 20px;
+}
+.why-zuri-training p{
+    font-size: 18px;
+    color: #E7332B;
+}
+.why-zuri-training h3{
+    font-size: 24px;
+    color: #1B1A20;
+    padding: 5px 0;
+    line-height: 30px;
+}
+.wire-2{
+    width: 15%;
+    margin-left: 41%;
+}
+.star{
+    display: none;
+}
+.why-zuri-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 20px;
+    padding: 0 20px;
+    margin: 30px 0;
+    background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0));
+}
+.why-zuri-card{
+    /* padding: 50px 30px; */
+    padding: 58px 50px 63px 40px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    border-radius: 20px;
+    color: #1B1A20;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: white;
+    transition: all .2s ease-in ;
+    /* border: 1px solid red; */
+}
+.why-zuri-card:hover{
+    transform: translateY(-10px);
+}
+#why-zuri-card-1{
+    background-image: url(../images/curve1.png);
+    background-color: #E7332B;
+    color: white;
+}
+#why-zuri-card-2{background-image: url(../images/curve.svg);}
+#why-zuri-card-3{background-image: url(../images/curve3.svg);}
+#why-zuri-card-4{background-image: url(../images/curve4.svg);}
+#why-zuri-card-5{background-image: url(../images/curve5.svg);}
+#why-zuri-card-6{background-image: url(../images/curve6.svg);}
+.why-zuri-card h3{
+    font-size: 45px;
+}
+.why-zuri-card .bold-text{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 500;
+    padding: 20px 0 26px 0;
+}
+.why-zuri-card p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.get-started{
+    margin-top: 55px;
+    padding: 50px 20px 0 20px;
+    color: white;
+    background-color: #E7332B;
+    /* border: 1px solid blue; */
+}
+.get-started img{
+    width: 15%;
+    margin-left: 47%;
+}
+.get-started-top, .get-started p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.get-started h3{
+    font-size: 30px;
+    line-height: 40px;
+    padding: 0 10px 0 0;
+}
+.get-started .main{
+    padding: 35px 3px 0 0;
+}
+.enroll-3{
+    margin: 30px 0 40px 0;
+    font-size: 18px;
+    color: #E7332B;
+    border: none;
+    border-radius: 71px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 25px;
+    /* border: 1px solid white; */
+}
+.button{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    border: 2px solid white;
+    border-radius: 71px;
+    padding: 10px 0;
+    cursor: not-allowed;
+}
+.button img{
+    width: 70%;
+    margin: 0 -50px 0 10px;
+    /* border: 1px solid white; */
+}
+.button p{
+    font-size: 13px;
+    font-weight: 400;
+    /* border: 1px solid white; */
+}
+.get-started .lady-2{
+    margin: 0 auto;
+    padding: 25px 0 35px 0;
+    width: 100%;
+}
+.get-started .dot-box{
+    margin: 0;
+    width: 29%;
+    padding: 0 35px 35px 20px;
+}
+.scope{
+    color: #1B1A20;
+    margin: 20px 0;
+    padding: 50px 20px;
+}
+.scope p{
+    font-size: 18px;
+    color: #E7332B;
+}
+.scope h3{
+    font-size: 24px;
+    line-height: 35px;
+}
+.scope img{
+    width: 40%;
+    margin-left: 30%;
+}
+.scope-cards{  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+.scope-card{
+    padding: 40px;
+    border-radius: 41px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    background-color: white;
+}
+.scope-card h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.scope-images{
+    align-items: center;
+    display: flex;
+    /* border: 1px solid orange; */
+}
+.scope-images img{
+    /* display: grid; */
+    width: 20%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0 8px 0 0;
+    /* border: 1px solid red; */
+}
+.scope-images .html-logo, .scope-images .css-logo{
+    width: 15%;
+}
+.scope-images .php-logo{
+    width: 25%;   
+}
+.scope-images .j-s-logo{
+    width: 18%;   
+}
+.scope-images .adobe-xd-logo{
+    width: 21%;   
+}
+.scope-images .figma-logo{
+    width: 35%;   
+}    
+.scope-images .ubuntu-logo,
+.scope-images .bash-logo
+{
+    width: 34.5%;   
+}
+.scope-images .aws-logo{
+    width: 25%;   
+}
+.scope-images .laravel-logo{
+    width: 24%;
+}
+.scope-images .react-logo,
+.scope-images .django-logo
+{
+    padding-right: 5px;
+    width: 32%;   
+}
+.scope-card p{
+    color: #1B1A20;
+    padding: 40px 0 30px 0;
+    font-size: 16.2px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.enroll-4{
+    display: flex;
+    justify-content: center;
+}
+.enroll-4-sub{
+    margin: 70px 0 35px 0;
+    font-size: 18px;
+    /* align-items: center; */
+    /* text-align: center; */
+    color: white;
+    border: none;
+    border-radius: 71px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: #E7332B;
+    cursor: pointer;
+}
+.got-questions{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 20px;
+    padding: 30px 0 ;
+    border-top: 1px solid hsl(250, 10%, 11%, 0.2);
+    border-bottom: 1px solid hsl(250, 10%, 11%, 0.2);
+    /* border: 1px solid red; */
+}
+.got-questions-img{
+    width: 20%;
+    margin: 10px 0 10px 35px;
+}
+.got-questions span{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+    color: #E7332B;
+}
+.got-questions h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 5px 0 100px 0;
+}
+.faqs button{
+    background-color: transparent;
+    border: none;
+}
+.faq{
+    position: relative;
+    padding: 20px;
+    border: 1px solid rgba(71,44,111,.43);
+}
+.faq p{
+    text-align: left;
+}
+.question p{
+    color: #333333;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px 44px 10px 0;
+}
+.answer{
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+}
+.answer p{
+    color: #000000;
+    font-size: 11px;
+    line-height: 22px;
+}
+.question::before{
+    content: "+";
+    position: absolute;
+    font-size: 30px;
+    font-weight: normal;
+    top: 23%;
+    right: 5%;
+}
+.question-tweet{
+    text-align: center;
+    padding: 70px 0 20px 0;
+}
+.question-tweet p{
+    font-size: 16px;
+    color: #333333;
+    padding: 0 10px 7px 0;
+}
+.tweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-tweet{
+    display: flex;
+    border: none;
+    border-radius: 71px;
+    padding: 2px 10px;
+    outline: none;
+    background-color: #E7332B;
+    cursor: pointer;
+}
+.sub-tweet img{
+    width: 25%;
+}
+.sub-tweet p{
+    color: white;
+    font-size: 12px;
+    margin: 10px 0 0 0px;
+}
+.structure{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding-top: 30px;
+    margin: 0 20px;
+    position: relative;
+}
+.structure img{
+    position: absolute;
+}
+.structure .structure-img-1{
+    width: 20%;
+    left: 10%;
+    top: 2%;
+}
+.structure .structure-img-2{
+    width: 12%;
+    right: 0;
+}
+.structure-text{
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    text-align: center;
+}
+.red-text{
+    color: #E7332B;
+    font-size: 18px;
+}
+.structure h3{
+    font-size: 24px;
+    color: #1B1A20;
+    padding: 5px 0 20px 0;
+}
+.structure-text span{
+    font-size: 16px;
+    line-height: 23px;
+}
+.structure-cards{
+    margin-top: 20px;
+}
+#structure-card{
+    color: white;
+    border-radius: 71px;
+    background-color: #1B1A20;
+    padding: 64px 48px;
+    margin-top: 40px;
+    box-shadow: 0 31px 60px rgba(231,51,43,.2)
+}
+#structure-card h3{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 18px;
+}
+#structure-card p{
+    font-size: 16px;
+    padding-bottom: 18px;
+}
+#structure-card h4{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+ul li{
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 18px;
+    /* display: inline-block; */
+    list-style-position: outside;
+}
+.available-tracks{
+    padding-bottom: 18px;
+}
+.frontend{
+    padding-bottom: 18px;
+}
+.backend{
+    padding-bottom: 18px;
+}
+.phases{
+    padding-bottom: 18px;
+}
+.part-time .post-program{
+    padding-bottom: 15px;
+}
+ul li a{
+    color: white;
+    text-decoration: underline;
+}
+.full-time img{
+    width: 15px;
+    margin: 2px 0 0 4px;
+}
+.full-time{
+    background-image: url(../images/hour.png);
+    background-size: 22%;
+    background-repeat: no-repeat;
+    background-position: bottom 68px right 28px;
+}
+.part-time{
+    background-image: url(../images/time.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: bottom 70px right 28px;
+}
+.structure .structure-img-3{
+    position: absolute;
+    width: 40%;
+    right: 0;
+    margin: -21% -20px 0 0;
+    z-index: -1;
+}
+.structure-img-4{
+    display: none;
+}
+.get-started-2{
+    margin: 70px 20px 0 20px;
+    padding-top: 30px;
+    /* border: 1px solid red; */
+}
+.get-started-card{
+    /* border: 1px solid red; */
+    background-color: #E7332B;
+    color: white;
+    padding: 70px 0 89px 0;
+    border-radius: 25px;
+    text-align: center;
+    background-image: url(../images/round.svg), url(../images/bend1.svg), url(../images/curve2.svg), url(../images/mains.png);
+    background-repeat: no-repeat;
+    background-size: 22%, 25%, 28%, 17% 23%;
+    background-position: top 28px left 30px, top right, bottom left, bottom right;
+}   
+.get-started-card p{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.get-started-card h3{
+    font-size: 26px;
+    margin: 0 76px;
+    line-height: 35px;
+    padding: 20px 0 40px 0;
+}
+.enroll-5{
+    display: flex;
+    justify-content: center;
+}
+.enroll-5-sub{
+    font-size: 18px;
+    color: #E7332B;
+    border: none;
+    border-radius: 71px;
+    padding: 10px 32px;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+footer{
+    /* border: 1px solid red; */
+    margin: 0 20px;
+    padding: 90px 0 20px 0;
+}
+.footer-zuri-training-logo{
+    padding: 10px 20px 0 20px;
+    cursor: pointer;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+.icon{
+    padding-right: 10px;
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    color: #1B1A20;
+}
+.copyright-1{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 20px;
+}
+.sub-copyright{
+    margin: 16px 0;
+    color: #1B1A20;
+}
+.footer-copyright{
+    padding: 16px;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.12);
+}
+
+@media only screen and (min-width:601px){
+    header{
+        margin: 0;
+        padding: 10px 30px;
+    }
+    .zuri-training-logo{
+        /* flex: 30%; */
+        width: 40%;
+    }
+    .thumb{
+        width: 75px;
+        margin: 0 -25px 0 0;
+    }
+    .enroll-1{
+        padding: 13px 25px;
+    }
+    .lady{
+        margin: auto;
+        padding-top: 100px;
+        width: 76%;
+        /* border: 1px solid red; */
+    }
+    .gain-knowledge{
+        padding: 0 20px 46px 20px;
+    }
+    .gain-knowledge h3{
+        font-size: 37px;
+        padding: 12px 10px;
+        line-height: 40px;
+    }
+    .wire{
+        width: 22%;
+        right: 35%;
+    }
+    .gain-knowledge-text{
+        font-size: 18px;
+        margin: 0 87px;
+        padding: 28px 10px 40px 10px;
+        line-height: 25px;
+    }
+    .launch{
+        font-size: 24px;
+        line-height: 35px;
+        padding: 0 15px;
+    }
+    .about img{
+        width: 75.5%;
+        padding: 16px 16px 0 16px;
+    }
+    .aim{
+        text-align: right;
+        padding: 30px 0 20px 44px;
+    }
+    .why-zuri{
+        margin-bottom: 0;
+    }
+    .why-zuri-training{
+        padding: 0 30px;
+    }
+    .why-zuri-cards{
+        padding: 30px 30px 0 54px;
+        margin-top: 24px;
+    }
+    .why-zuri-card{
+        padding: 58px 48px 93px 50px;
+    }
+    .why-zuri-card h3{
+        font-size: 60px;
+    }
+    .why-zuri-card .bold-text{
+        font-size: 36px;
+        padding: 32px 0 36px 0;
+    }
+    .get-started{
+        margin-top: 89px;
+        padding: 54px 31px 0 0;
+    }
+    .get-started img{
+        width: 20%;
+        margin-left: 57%;
+    }
+    .get-started-top, .get-started h3{
+        padding: 0 0 0 54px;
+    }
+    .get-started .main{
+        padding: 35px 4px 0 54px ;
+    }
+    .enroll-3{
+        margin: 30px 0 40px 54px;
+    }
+    .buttons{
+        padding-left: 54px;
+    }
+    .button{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: 1fr;
+        border: 2px solid white;
+        border-radius: 79px;
+        padding: 11px 8px 11px 10px;
+    }
+    .button img{
+        width: 80%;
+        padding-right: 8px;
+        margin: 0 -50px 0 10px;
+    }
+    .get-started .lady-2{
+        padding: 25px 0 35px 54px;
+    }
+    .get-started .dot-box{
+        width: 23%;
+        padding: 35px;
+    }
+    .scope{
+        padding: 50px 30px;
+    }
+    .scope h3{
+        margin-right: 100px;
+        padding-right: 90px;
+    }
+    .scope img{
+        width: 45%;
+    } 
+    .scope-card h3{
+        padding-bottom: 20px;
+    }
+    .scope-images img{
+        width: 10%;
+        margin: 0 14px 0 0;
+    }
+    .scope-images .html-logo, .scope-images .css-logo{
+        width: 8%;
+    }
+    .scope-images .php-logo{
+        width: 13%;   
+    }
+    .scope-images .j-s-logo{
+        width: 11%;   
+    }
+    .scope-images .adobe-xd-logo{
+        width: 12%;   
+    }
+    .scope-images .figma-logo{
+        width: 22%;   
+    }    
+    .scope-images .ubuntu-logo
+    {
+        width: 24%;   
+    }
+    .scope-images .bash-logo
+    {
+        width: 20%;   
+    }
+    .scope-images .aws-logo{
+        width: 13%;   
+    }
+    .scope-images .laravel-logo{
+        width: 15%;
+    }
+    .scope-images .react-logo,
+    .scope-images .django-logo
+    {
+        padding-right: 0;
+        width: 18%;   
+    }
+    .scope-card p{
+        padding: 40px 0 35px 0;
+    }
+    .enroll-4-sub{
+        padding: 13px 35px;
+        margin: 70px 0 20px 0;
+    }
+    .got-questions{
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px;
+    }
+    .got-questions-img{
+        margin: 0 0 0 35px;
+    }
+    .got-questions span{
+        padding: 0;
+        text-align: center;
+    }
+    .structure{
+        margin: 10px 30px 0 30px;
+    }
+    .structure .structure-img-2{
+        top: 3%;
+        /* right: 0; */
+    }
+    .structure-text{
+        margin-top: 75px;
+    }
+    .structure-cards{
+        padding-top: 5px;
+    }
+    .part-time .post-program{
+        padding-bottom: 0;
+    }
+    .full-time{
+        background-size: 17%;
+    }
+    .part-time{
+        background-size: 27%;
+    }
+    .structure .structure-img-3{
+        width: 16%;
+        margin: -13.5% -30px 0 0;
+    }
+    .get-started-2{
+        margin: 70px 30px 0 30px;
+    }
+    .get-started-card{
+        background-position: top 18% left 13%, top right, bottom left, bottom right;
+        background-size: 13%, 23%, 19%, 17% 23%;
+    }
+    .get-started-card h3{
+        font-size: 36px;
+        margin: 0 135px;
+        line-height: 48px;
+    }
+    .enroll-5{
+        padding-bottom: 10px;
+    }
+    footer{
+        margin: 0 30px;
+    }
+    .footer-zuri-training-logo{
+        padding: 0;
+    }
+    .footer-1{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .social-icons{
+        padding: 0;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .copyright-1{
+        flex-direction: row;
+        padding: 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #sub-copyright-1{
+        margin-right: 15px;
+    }
+    .footer-copyright{
+        border: none;
+        padding: 16px 0;
+    }
+}
+
+@media only screen and (min-width:701px){
+    .zuri-training-logo{
+        width: 50%;
+    }
+    .enroll-1{
+        padding: 12px 32px;
+    }
+    .lady{
+        width: 73%;
+        /* border: 1px solid red; */
+    }
+    .gain-knowledge{
+        margin-top: -75px;
+    }
+    .wire{
+        width: 30%;
+        right: 8%;
+    }
+    .gain-knowledge-text{
+        margin: 0 110px;
+    }
+    .enroll-2{
+        padding: 10px 32px;
+    }
+    .male-face{
+        display: block;
+        width: 8%;
+        margin: 20px 0 0 -70%;
+    }
+    .wire-1{
+        width: 17%;
+        margin-top: -85px;
+        margin-left: 30%;
+    }
+    .about{
+        padding: 30px 0 20px 0;
+        margin: 0 30px;
+    }
+    .launch{
+        line-height: 30px;
+    }
+    .about img{
+        width: 85%;
+    }
+    .aim{
+        padding: 30px 0 20px 0;
+    } 
+    .why-zuri-training h3{
+        line-height: 35px;
+        padding: 0;
+    }
+    .wire-2{
+        width: 13%;
+    }
+    .why-zuri-card{
+        background-size: 33%;
+    }
+    .why-zuri-card .bold-text{
+        line-height: 47px;
+    }
+    .get-started img{
+        width: 17%;
+    }
+    .button{
+        margin-right: 50px;
+    }
+    .button img{
+        width: 70%;
+    }
+    .button p{
+        font-size: 18px;
+    }
+    .get-started .dot-box{
+        width: 20%;
+    }
+    .scope img{
+        width: 12%;
+        margin: -25px 0 0 42%;
+    }
+    .scope-images img{
+        width: 20%;
+        margin: 0 8px 0 0;
+    }
+    .got-questions span{
+        margin-top: -20px;
+    }
+    .question-tweet{
+        display: flex;
+        justify-content: center;
+    }
+    .question-tweet p{
+        padding: 0 10px 0 0;
+    }
+    .tweet{
+        margin-top: -10px
+    }
+    .sub-tweet{
+        padding: 2px 25px;
+    }
+    .structure .structure-img-2{
+        margin-top: 20px;
+    }
+    .structure-text{
+        margin-top: 100px;
+    }
+    .structure-text span{
+        font-size: 18px;
+    }
+    .part-time{
+        background-position: bottom 50px right 28px;
+    }
+    .structure .structure-img-3{
+        margin: -11% -30px 0 0;
+    }
+    .get-started-card{
+        background-position: top 20% left 15%, top right, bottom left, bottom right;
+        background-size: 13%, 23%, 19%, 17% 23%;
+    }
+}
+@media only screen and (min-width:800px){
+    .lady{
+        width: 72%;
+    }
+    .about img{
+        width: 100%;
+    }
+    .aim{
+        padding: 30px 0 20px 10px;
+    }
+    .button{
+        margin-right: 100px;
+    }
+    .button img{
+        width: 65%;
+    }
+    .scope-images img{
+        width: 7%;
+        margin: 0 14px 0 0;
+    }
+    .scope-images .html-logo, .scope-images .css-logo{
+        width: 5%;
+    }
+    .scope-images .php-logo{
+        width: 10%;   
+    }
+    .scope-images .j-s-logo{
+        width: 7%;   
+    }
+    .scope-images .adobe-xd-logo{
+        width: 8%;   
+    }
+    .scope-images .figma-logo{
+        width: 14%;   
+    }    
+    .scope-images .ubuntu-logo
+    {
+        width: 15%;   
+    }
+    .scope-images .bash-logo
+    {
+        width: 11%;   
+    }
+    .scope-images .aws-logo{
+        width: 9%;   
+    }
+    .scope-images .laravel-logo{
+        width: 9%;
+    }
+    .scope-images .react-logo,
+    .scope-images .django-logo
+    {
+        padding-right: 0;
+        width: 11%;   
+    }
+   .scope-card p{
+       padding: 40px 0;
+    }
+    .structure-cards{
+        padding-bottom: 100px;
+    }
+    .structure-text{
+        margin-top: 120px;
+    }
+    .full-time .post-program{
+        padding-bottom: 40px;
+    }
+    .part-time .post-program{
+        padding-bottom: 100px;
+    }
+    .part-time{
+        background-position: bottom 115px right 28px;
+    }
+    .structure .structure-img-3{
+        margin: -23% -30px 0 0;
+    }
+    .structure-img-4{
+        display: block;
+        width: 10%;
+    }
+    .get-started-2{
+        padding-top: 27px;
+    }
+    .get-started-card h3{
+        font-size: 46px;
+        margin: 0 165px;
+        line-height: 60px;
+    }
+    .get-started-card{
+        background-size: 13%, 23%, 15%, 17% 23%;
+    }
+    .enroll-5{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:900px){
+    .zuri-training-logo{
+        width: 40%;
+    }
+    .wire{
+        right: 11%;
+    }
+    .gain-knowledge-text{
+        margin: 20px 150px 0 150px;
+    }
+    .male-face{
+        width: 6%;
+        margin: 20px 0 0 -70%;
+    }
+    .wire-1{
+        width: 10%;
+        margin-top: -85px;
+        margin-left: 30%;
+    }
+    .about{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 45px;
+        padding: 30px 0 0 0;
+    }
+    .launch{
+        padding: 0;
+        margin-right: 100px;
+        line-height: 33px;
+    } 
+    .about img{ 
+        /* border: 1px solid red; */
+        width: 100%;
+        padding: 0;
+    }
+    .aim{
+        padding: 0;
+        margin-top: -40px;
+        margin-left: 150px;
+    }
+    .why-zuri-training{
+        display: flex;
+        flex: 100%;
+        padding: 0 45px;
+    }
+    .why-zuri-text{
+        flex: 50%;
+    }
+    .why-zuri-training h3{
+        font-size: 30px;
+        padding: 5px 0px 5px 0;
+    }
+    .star{
+        display: block;
+        width: 35%;
+        margin-top: 40px;
+        padding: 0 60px;
+        mix-blend-mode: darken;
+        flex: 30%;
+    }
+    .wire-2{
+        width: 8%;
+        margin-left: 25%;
+    }
+    .why-zuri-cards{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 20px;
+        padding: 0 45px 0 65px;
+        margin: 30px 0;
+    }
+    .get-started{
+        padding: 54px 54px 0 24px;
+    }
+    .get-started img{
+        width: 19%;
+    }
+    .button img{
+        width: 70%;
+    }
+    .buttons{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        gap: 0;
+        margin: 0 0 0 30px;
+    }
+    .button{
+        margin: 0 0 0 -30px;
+    }
+    .get-started .dot-box{
+        width: 17%;
+        padding: 0 35px 35px 10px;
+    }
+    .scope{
+        padding: 50px 45px;
+    }
+    .scope-cards{  
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 24px;
+    }
+    .scope h3{
+        font-size: 30px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .scope-card h3{
+        font-size: 20px;
+        padding: 0 0 20px 0;
+    }
+    .scope-images img{
+        width: 15%;
+    }
+    .scope-images .html-logo, .scope-images .css-logo{
+        width: 11%;
+    }
+    .scope-images .php-logo{
+        width: 18%;   
+    }
+    .scope-images .j-s-logo{
+        width: 15%;   
+    }
+    .scope-images .adobe-xd-logo{
+        width: 15%;   
+    }
+    .scope-images .figma-logo{
+        width: 30%;   
+    }    
+    .scope-images .ubuntu-logo
+    {
+        width: 30%;   
+    }
+    .scope-images .bash-logo
+    {
+        width: 25%;   
+    }
+    .scope-images .aws-logo{
+        width: 19%;   
+    }
+    .scope-images .laravel-logo{
+        width: 20%;
+    }
+    .scope-images .react-logo,
+    .scope-images .django-logo
+    {
+        padding-right: 0;
+        width: 23%;   
+    }
+    .got-questions span{
+        margin-top: -10px;
+    }
+    .question-tweet{
+        padding: 70px 0 10px 0;
+    }
+    .question p{
+        font-size: 18px;
+    }
+    .structure-text{
+        margin-top: 150px;
+    }
+    .structure-cards{
+        display: flex;
+    }
+    #structure-card{
+        flex: 50%;
+        margin: 40px 20px 0 20px;
+        padding: 64px 70px 64px 48px
+    }
+    #structure-card p{
+        line-height: 25px;
+    }
+    .full-time .post-program{
+        padding-bottom: 0;
+    }
+    .part-time .post-program{
+        padding-bottom: 0;
+    }
+    .full-time{
+        background-size: 15%;
+        background-position: bottom 110px right 28px;
+    }
+    .part-time{
+        background-position: bottom 170px right 28px;
+    }
+}
+
+@media only screen and (min-width: 901px){
+    .launch{
+        font-size: 20px;
+        text-align: left;
+        margin-right: 10px;
+        line-height: 30px;
+    }
+    .about img{
+        width: 200%;
+        margin-left: 20px;
+    }
+    .aim{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 950px){
+    .gain-knowledge h3{
+        font-size: 49px;
+        padding: 12px 10px;
+        line-height: 55px;
+    }
+    .wire{
+        /* width: 22%; */
+        right: 8%;
+    }
+    .get-started{
+        padding: 54px 54px 0 0;
+    }
+    .button img{
+        width: 80%;
+    }
+    .buttons{
+        margin: 0 -30px 0 0;
+    }
+    .button{
+        margin: 0 20px 0 0;
+    }
+    .get-started .dot-box{
+        width: 19%;
+        padding: 0 35px 35px 35px;
+    }
+    .scope p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .scope h3{
+        padding: 5px 20px 10px 0;
+        line-height: 40px;
+    }
+    .scope img{
+        width: 13%;
+    }
+    .scope-card p{
+        font-size: 16px;
+        font-weight: none;
+    }
+    .got-questions{
+        margin: 0 50px;
+    }
+    .got-questions-img{
+        width: 12%;
+        margin: 10px 0 10px 10%;
+    }
+    .got-questions span{
+        margin-top: -50px;
+        font-size: 20px;
+    }
+    .got-questions h3{
+        font-size: 30px;
+    }
+    .faq{
+        margin: 0 50px;
+    }
+    .structure .structure-img-1{
+        width: 12%;
+    }
+    .structure-text{
+        margin-top: 70px;
+    }
+    .red-text{
+        font-size: 20px;
+    }
+    .structure h3{
+        font-size: 30px;
+    }
+    .full-time{
+        background-size: 18%;
+        background-position: bottom 70px right 28px;
+    }
+    .part-time{
+        background-size: 35%;
+        background-position: bottom 150px right 28px;
+    }
+    .get-started-2{
+        margin: 70px 35px 0 35px;
+    }
+    .get-started-card{
+        background-size: 13%, 13%, 12%, 12.5% 23%;
+    }
+    footer{
+        margin: 0 35px;
+    }
+}   
+@media only screen and (min-width:1000px){
+    .star{
+        padding: 0 100px;
+        flex: 40%;
+    }
+}
+@media only screen and (min-width:1001px){
+    .zuri-training-logo{
+        width: 25%;
+        padding: 0;
+    }
+    .thumb{
+        width: 70px;
+        margin: 0 -19px 0 0;
+    }
+    .enroll-1{
+        padding: 11px 29px;
+    }
+    .header-links{
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+    .header-links a{
+        font-size: 18px;
+        color: #585757;
+        margin: 0 10px 0 0;
+        padding: 6px 8px;
+        text-decoration: none;
+    }    
+    .header-links li{
+        display: inline;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .lady{
+        display: none;
+    }
+    .gain-knowledge{
+        margin: 100px 63px 0 63px;
+        padding: 100px 100px 40px 100px;
+        background-image: url(../images/lady1.jpg), url(../images/male1.jpg);
+        background-size: 31%, 28%;
+        background-repeat: no-repeat;
+        mix-blend-mode: darken;
+        background-position: left bottom 45%, right bottom 42%;
+    }
+    .gain-knowledge h3{
+        padding: 12px 80px;
+        margin: 0 87px 0 87px;
+    }
+    .wire{
+        width: 18%;
+        right: 37%;
+        margin-top: 10px;
+    }
+    .gain-knowledge-text{
+        margin: 0 240px 0 240px;
+    }
+    .male-face{
+        width: 6%;
+        margin: -30px 0 0 -50%;
+    }
+    .wire-1{
+        width: 9%;
+        margin: -30px 0 0 16%;
+    }
+    .star{
+        /* width: %; */
+        padding: 0 150px;
+    }
+    .why-zuri-training{
+        flex: 80%;
+        padding: 0 40px;
+    }
+    .why-zuri-training p{
+        font-size: 24px;
+    }
+    .why-zuri-training h3{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .why-zuri-cards{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .get-started-flex{
+        display: flex;
+    }
+    .get-started .lady-2{
+        margin: 0 auto;
+        padding: 0;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:1250px){
+    .launch{
+        font-size: 24px;
+        padding-right: 20px;
+        text-align: left;
+        line-height: 35px;
+    }
+    .about img{
+        /* border: 1px solid red; */
+        width: 100%;
+        padding: 0px;
+        margin: -10px 200px 0 60px;
+    }
+    .aim{
+        font-size: 24px;
+        margin-top: -40px;
+        /* padding-left: 250px; */
+    }
+    .gain-knowledge h3{
+        padding: 12px 100px;
+    }
+    .gain-knowledge-text{
+        margin: 0 260px 0 260px;
+    }
+    .get-started{
+        padding: 54px 74px 0 34px;
+    }
+    .get-started img{
+        width: 7%;
+        margin-left: 25%;
+    }
+    .get-started h3{
+        font-size: 40px;
+        line-height: 55px;
+        padding: 0 75px 0 54px;
+    }
+    .get-started .main{
+        margin-right: 100px;
+        padding: 35px 100px 0 54px ;
+    }
+    .get-started-flex{
+        padding-bottom: 50px;
+    }
+    .buttons{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        column-gap: 10px;
+        row-gap: 30px;
+        margin: 0 0 0 0;
+    }
+    .button img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .get-started .lady-2{
+        width: 50%;
+    }
+    .get-started .dot-box{
+        width: 17%;
+    }
+    .scope p{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .scope h3{
+        font-size: 40px;
+        margin-right: 300px;
+        padding: 5px 300px 10px 0;
+        line-height: 55px;
+    }
+    .scope-cards{  
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 24px;
+    }
+    .scope-card h3{
+        font-size: 20px;
+        padding: 0 0 20px 0;
+        margin-right: 0;
+        line-height: 40px;
+    }
+    .scope-card p{
+        font-size: 16px;
+        font-weight: none;
+    }
+    .got-questions span{
+        font-size: 24px;
+        padding: 5px 0;
+    }
+    .got-questions h3{
+        font-size: 40px;
+        margin-top: 5px;
+    }
+    .faq p{
+        font-weight: 700;
+    }
+    .question-tweet p{
+        font-size: 18px;
+    }
+    .sub-tweet p{
+        font-size: 12px;
+    }
+    .structure-text{
+        margin-top: 120px;
+    }
+    .red-text{
+        font-size: 24px;
+    }
+    .structure h3{
+        font-size: 40px;
+    }
+    .structure-cards{
+        background-image: url(../images/move.svg);
+        background-position: left -35px top 30%;
+        background-repeat: no-repeat;
+        padding: 20px 52px;
+    }
+    .full-time{
+        background-size: 20%;
+        background-position: bottom 50px right 28px;
+    }
+    .part-time{
+        background-position: bottom 90px right 28px;
+    }
+    .structure .structure-img-3{
+        width: 14%;
+        margin: -8% 0 0 0;
+    }
+    .structure-img-4{
+        margin: 50px 0 0 40px;
+        padding-top: 70px;
+    }
+    .get-started-2{
+        margin: 220px 65px 0 65px;
+    }
+    .get-started-card h3{
+        font-size: 55px;
+        margin: 0 282px;
+        line-height: 75px;
+    }
+    .get-started-card{
+        background-size: 13%, 13%, 12%, 12.5% 28%;
+    }
+    footer{
+        margin: 0 65px;
+    }
+}
+
+@media only screen and (min-width:1326px){
+    .gain-knowledge h3{
+        padding: 12px 140px;
+    }
+    .gain-knowledge-text{
+        margin: 0 260px 0 260px;
+    }
+}

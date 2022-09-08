@@ -1,0 +1,723 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: "Graphik";
+}
+header{
+    margin: 0;
+    padding: 5px 16px 20px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+   
+}
+.zuri-talent-logo{
+    /* width: 10%; */
+    padding: 10px;
+}
+.header-links{
+    display: none;
+}
+.hire-talent p{
+    font-size: 16px;
+    color: white;
+    background-color: #E7332B;
+    padding: 10px 25px;
+    border-bottom-right-radius: 10px;
+}
+.vetted-trusted{
+    margin-top: 50px;
+    padding: 60px 30px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.vetted-trusted-text{
+    /* border: 1px solid red; */
+    padding: 15px 0 10px 0;
+    position: relative;
+}
+.thin-line{
+    position: absolute;
+    width: 28%;
+    /* left: 60.5%; */
+    right: 2.5%;
+    top: 27.5%;
+}
+.vetted-trusted-heading h3{
+    font-size: 40px;
+    line-height: 50px;
+}
+.vetted-trusted-heading span{
+    color: #E7332B;
+}
+.vetted-trusted-text p{
+    /* margin-top: 5px; */
+    padding: 30px 10px;
+    font-size: 16px;
+    color: #787878;
+    line-height: 23px;
+}
+.button-click, .button-click-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+.red-background button{
+    background-color: rgb(232, 53, 44);
+    margin-right: 15px;
+}
+.gray-background button{
+    background-color: #585858;
+}
+.red-background button, .gray-background button{
+    padding: 8px 26px;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom-right-radius: 9px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+.vetted-trusted-image{
+    padding: 30px 0;
+}
+.vetted-trusted-image img{
+    width: 100%;
+}
+.impact{
+    /* border: 1px solid red; */
+    background-image: url(../images/second-part-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 30px;
+}
+ .impact-text h3{
+    font-size: 28px;
+    line-height: 33px;
+ }
+ .impact-text span{
+    color: #E7332B;
+ }
+ .impact-text p{
+    font-size: 16px;
+    padding-top: 10px;
+ }
+ .bold{
+    font-weight: bold;
+ }
+ .light{
+    color: #787878;
+ }
+ .countries{
+    padding: 20px 0;
+ }
+ .country-logo{
+    background-color: white;
+    border-radius: 10px;
+    width: 15%;
+    margin-right: 14px;
+    /* border: 1px solid red; */
+ }
+ #country-1{padding: 13px 10px;}
+ #country-2{padding: 12px 10px;}
+ #country-3{padding: 10px 11px;}
+ #country-4{padding: 11px;}
+ #country-5{
+    padding: 8px 11px;
+    margin-right: 0;
+}
+.impact-image img{
+    width: 100%;
+    margin-top: 50px;
+}
+.about-talent{
+    /* border: 1px solid red; */
+    padding: 70px 28px;
+}
+.skills h3, .where h3{
+    font-size: 28px;
+    padding: 30px 0;
+    /* border: 1px solid red; */
+}
+.skills h3{
+    padding-right: 10px;
+}
+.skills span{
+    color: #E7332B;
+}
+.skills-grid-container, .where-grid-container{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    row-gap: 15px;
+    column-gap: 24px;
+    font-size: 16px;
+    color: #787878;
+    /* border: 1px solid red; */
+}
+.skills-grid-container{
+    padding: 38px 0 18px 0;
+}
+.where-grid-container{
+    padding: 8px 0;
+    row-gap: 7px;
+    column-gap: 15px;
+}
+#skills-grid, #where-grid{
+    display: grid;
+    background-color: white;
+    padding: 8px;
+    line-height: 35px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
+    text-align: center;
+    align-items: center;
+    transition: all .2s ease-in ;
+}
+#skills-grid:hover, #where-grid:hover{
+    transform: translateY(-15px);
+}
+#where-grid{
+    line-break: 50px;
+}
+.skills-grid-container img{
+    display: none
+}
+.why-hire{
+    /* border: 1px solid red; */
+    background-color: #FFF8E5;
+    padding: 50px 30px;
+    margin-top: 20px;
+    position: relative;
+}
+.line-2{
+    width: 100%;
+    position: absolute;
+    top: 24%;
+    left: -9%;
+}
+.why-hire h3{
+    font-size: 28px;
+    padding: 43px 0;
+    text-align: center;
+}
+.why-hire span{
+    color: #E7332B;
+}
+.why-hire-container{
+    margin: 37px 0 30px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "why-hire-1"
+    "why-hire-2"
+    "why-hire-3"
+    "why-hire-4"
+    "why-hire-5";
+    row-gap: 15px;
+    column-gap: 20px;
+    font-size: 15px;
+    color: #787878;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.why-hire-1{grid-area: why-hire-1;}
+.why-hire-2{grid-area: why-hire-2;}
+.why-hire-3{grid-area: why-hire-3;}
+.why-hire-4{grid-area: why-hire-4;}
+.why-hire-5{grid-area: why-hire-5;}
+
+#why-hire-grid{
+    background-color: white;
+    z-index: 1;
+    border-bottom-right-radius: 15px;
+    padding: 42px 15px;
+    line-height: 23px;
+}
+#why-hire-grid:hover{
+    color: #ffffff;
+    background-color: #161617;
+}
+.why-hire-1 p, .why-hire-2 p{
+    padding: 10px 0;
+}
+.why-hire-3 p, .why-hire-4 p, .why-hire-5 p{
+    margin: 20px 0 15px 0;
+    padding: 10px 0;
+}
+/* #why-hire-grid p{
+    padding: 10px 0;
+} */
+.button-click-2{
+    padding: 40px 0 30px 0;
+}
+footer{
+    display: flex;
+    background-color: #161617;
+    padding: 0 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.footer-img{
+    padding-top: 80px;
+}
+.icon{
+    width: 41px;
+    padding-right: 10px;  
+    margin: 20px 0;
+}
+#youtube-icon{
+    width: 54px;
+}
+.contact-link{
+    padding: 20px 0 38px 0;
+}
+.contact-link a{
+    font-size: 16px;
+    color: white;
+}
+.footer-copyright p{
+    border-top: 1px solid #787878;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+@media only screen and (min-width:400px){
+    .thin-line{
+        width: 28%;
+        right: 5%;
+        top: 27%;
+    }
+}
+
+@media only screen and (min-width:425px){
+    .thin-line{
+        width: 28%;
+        right: 8%;
+        top: 30%;
+    }
+    .footer-copyright p{
+        padding: 15px 0;
+    }
+}
+@media only screen and (min-width: 426px){
+    .vetted-trusted-heading h3{
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (min-width:436px){
+    .thin-line{
+        width: 28%;
+        right: 28%;
+        top: 30%;
+    }
+}
+@media only screen and (min-width:513px){
+    .hire-talent p, .red-background button, .gray-background button{
+        padding: 11px 50px;
+    }
+    .vetted-trusted{
+        padding: 60px 35px;
+    }  
+    #why-hire-grid p{
+        padding: 15px;
+    }
+    .footer-copyright p{
+        padding: 15px 50px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    header{padding: 10px 25px 20px 25px ;}
+    .vetted-trusted-heading h3{padding: 3px 15px 0 15px;}
+    .thin-line{
+        width: 19%;
+        right: 34%;
+        top: 32%;
+    }
+    .impact{
+        padding: 90px 45px;
+    }
+    .country-logo{width: 13%;}
+    #country-1{padding: 13px 12px;}
+    #country-2{padding: 12px 12px;}
+    #country-3{padding: 10px 13px;}
+    #country-4{padding: 13px;}
+    #country-5{padding: 11px 15px;}
+    .about-talent{padding: 70px 45px 65px 45px;}
+    .skills h3{padding: 25px 100px 0 0;}
+    .where h3{padding: 26px 0;}
+    .skills-grid-container, .where-grid-container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .line-2{
+        top: 33%;
+        left: -40%;
+    }
+    .why-hire-container{
+        margin: 30px 10px;
+        font-size: 18px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        grid-template-areas: 
+        "why-hire-1 why-hire-2"
+        "why-hire-3 why-hire-4"
+        "why-hire-5 why-hire-5";
+        /* row-gap: 5px; */
+    }
+    #why-hire-grid{
+        padding: 42px 5px 45px 5px;
+        line-height: 23px;
+    }  
+    .why-hire-2 p{
+        padding: 10p7
+         0 0 0;
+    }
+    .why-hire-3 p{
+        margin: 8px 0 5px 0;
+    }
+    .button-click-2{padding: 30px 0 25px 0;}
+    .footer-social{
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        padding: 80px 0 20px 0;
+    }
+    .footer-img{
+        padding-top: 0;
+    }
+    .social-icons{margin: 0;}
+    .icon{
+        margin: 0;
+    }
+    .footer-copyright p{
+        padding: 15px 90px;
+    }
+}   
+
+@media only screen and (min-width:601px){
+    .thin-line{
+        width: 19%;
+        right: 34%;
+        top: 28%;
+    }
+    .vetted-trusted{
+        margin-top: 145px;
+        padding: 60px 45px;
+    }
+    .vetted-trusted-text p{
+        padding: 30px 80px;
+        font-size: 18px;
+    }
+    .vetted-trusted-image img{
+        width: 75%;
+    }
+    .impact{
+        text-align: center;
+    }
+    .impact-text h3{
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0 52px;
+    }
+    .impact-text p{
+        font-size: 18px;
+    }
+    .impact-image img{
+        width: 60%;
+    }
+    .skills h3, .where h3{
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0 42px;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+    .skills h3{
+        padding: 25px 0 0 0;
+    }
+    .skills-grid-container, .where-grid-container{
+        font-size: 18px;
+    }
+    .footer-img{
+        padding-right: 50px;
+    }
+    .footer-2{
+        /* border: 1px solid white; */
+        display: flex;
+        margin: 15px 0;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }   
+    .contact-link{
+        padding: 0;
+    }
+    .footer-copyright p{
+        border: none;
+        padding: 0;
+        text-align: left;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width:628px){
+    .thin-line{
+        right: 2%;
+        top: 15%;
+    }
+}
+
+@media only screen and (min-width:700px){
+    .thin-line{
+        width: 17%;
+        right: 8%;
+        top: 18%;
+    }
+    .vetted-trusted-text p{
+        font-size: 20px;
+        padding: 30px 90px;
+    }
+    .footer-2{
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width:800px){
+    .thin-line{
+        width: 14%;
+        right: 13%;
+    }
+    .footer-social{
+        gap: 200px;
+    }
+    .footer-2{
+        gap: 150px;
+    }
+}
+@media only  screen and (min-width:891px){
+    header{
+        padding: 10px 67px 20px 67px;
+    }
+    .header-links{
+        display: flex;
+        margin: 0;
+        /* border: 1px solid red; */
+    }
+    .header-links a{
+        font-size: 16px;
+        color: #161617;
+        margin: 0 36px 0 0;
+        padding: 16px 8px;
+        border-bottom: 3px solid #E7332B;
+        text-decoration: none;
+    }    
+    .header-links li{
+        display: inline;
+    }
+    .hire-talent p{
+        padding: 11px 35px;
+    }
+    .thin-line{
+        width: 15%;
+        right: 18%;
+    }
+    .vetted-trusted-text p{
+        font-size: 19px;
+        padding: 30px 90px;
+        margin: 0 50px;
+    }
+    .vetted-trusted-image img{
+        width: 65%;
+    }
+    .impact-text h3{
+        margin: 0 55px;
+    }
+    .impact-text p{
+        font-size: 19px;
+    }
+    .country-logo{width: 8%;}
+    .about-talent{
+        padding: 70px 67px;
+    }
+    .skills h3, .where h3{
+        margin: 0 150px;
+    }
+    .skills-grid-container, .where-grid-container{
+        font-size: 18px;
+    }
+    .why-hire{
+        padding: 80px 67px;
+    }
+    .why-hire h3{
+        font-size: 30px;
+    }
+    .footer-2{
+        gap: 250px;
+    }
+}
+@media only screen and (min-width:900px){
+    .header-links{
+        margin-left: 100px;
+    }
+    .impact{
+        display: flex;
+    }
+    .impact-text{
+        flex: 50%;
+        padding: 0;
+    }
+    .impact-text h3{
+        margin:  0 60px;
+    }
+    .impact-image{
+        flex: 50%;
+    }
+    .impact-image img{
+        width: 60%;
+    }
+    .country-logo{width: 15%;}
+    .skills-grid-container{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr;
+    }
+    .where-grid-container{
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: 1fr;
+    }   
+    #why-hire-grid p{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (min-width:901px){
+    .impact-text{
+        text-align: left;
+    }
+    .impact-text h3{
+        margin: 0;
+        padding-right: 50px;
+        line-height: 40px;
+    }
+    .impact-image img{
+        width: 80%;
+        margin: 0;
+    }
+    .skills h3, .where h3{
+        text-align: left;
+        margin: 0;
+        line-height: 40px;
+    }
+    .skills h3{
+        padding-right: 450px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .header-links{
+        margin-left: 300px;
+    }
+    .thin-line{
+        right: 13%;
+        top: 12%;
+    }
+    .vetted-trusted{
+        display: flex;
+    }
+    .vetted-trusted-text{
+        flex: 55%;
+        margin: 100px 0 0 30px;
+        text-align: left;
+        align-items: center;
+    }
+    .vetted-trusted-heading h3{
+        padding: 0;
+    }
+    .vetted-trusted-text p{
+        padding: 30px 100px 30px 0;
+        margin: 0 85px 0 0;
+    }
+    .button-click{
+        justify-content: left;
+    }
+    .vetted-trusted-image{
+        flex: 45%;
+        background-image: url(../images/line1.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .vetted-trusted-image img{
+        width: 75%;
+    }
+    .impact-text{
+        margin-top: 50px;
+    }
+    .impact-text h3{
+        font-size: 40px;
+        padding-right: 65px;
+        line-height: 50px;
+    }
+    .impact-image img{
+        width: 60%;
+    }
+    .skills h3, .where h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .skills-grid-container{
+        background-image: url(../images/line1.svg);
+        background-repeat: no-repeat;
+        background-position: top -40px right;
+    }
+    .line-2{
+        width: 30%;
+        top: 48%;
+        left: 0;
+    }
+    .why-hire-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-template-areas: 
+        "why-hire-1 why-hire-1 why-hire-2 why-hire-2 why-hire-3 why-hire-3"
+        ".why-hire-4 why-hire-4 why-hire-5 why-hire-5.";
+        row-gap: 30px;
+    }
+    #why-hire-grid p{
+        padding: 0 30px;
+    }
+    .country-logo{width: 12%;}
+    .footer-social{
+        gap: 700px;
+    }
+    .footer-2{
+        gap: 500px;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .thin-line{
+        right: 20%;
+        top: 10%;
+    }
+    .vetted-trusted-image{
+        background-size: 50%;
+    }
+}
